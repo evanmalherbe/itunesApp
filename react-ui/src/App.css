@@ -1,0 +1,214 @@
+/* Stylesheet for HyperionDev Bootcamp - Level 2 Task 21 - Capstone project - iTunes app */
+
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Logo image in header */
+.logo {
+  height: 3rem;
+  pointer-events: none;
+  margin: 0rem 1rem;
+  border-radius: 4px;
+}
+
+/* Red paragraph text for "No results" message */
+.redPara {
+  color: red;
+}
+
+/* Images */
+.searchIconImg {
+  height: 2rem;
+  pointer-events: none;
+  margin: 0rem 1rem;
+  
+}
+
+/* Image on left of page */
+.musicImg {
+  height: 15rem;
+  pointer-events: none;
+  margin-left: 1rem;
+  border-radius: 8px;
+} 
+
+/* Image on right of page */
+.moviesImg {
+  height: 15rem;
+  pointer-events: none;
+  margin-left: auto;
+  margin-right: 1rem;
+  border-radius: 8px;
+}
+
+/* Artist/track artwork image */
+.artworkImg {
+  width: 6rem; 
+}
+
+/* Favourites star image */
+.starImg {
+  height: 2rem;
+  margin-left: auto;
+}
+
+/* End of image styles ---------------------------*/
+
+/* Header styles */
+.header {
+  background-color: white;
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  border-bottom: 1px solid #dedede;
+}
+
+/* Search form container */
+.searchFormDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  margin-left: 1rem;
+  padding: 0.5rem;
+  
+  background-color: #d9e5ef;
+  border: 1px solid #dedede;
+  border-radius: 8px;
+}
+
+/* Container for results and favourites list - set to be next to eachother */
+.mainPage {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  background-color: white;
+}
+
+/* Styling for favourites -----------------------------------------*/
+
+/* Container for user favourites list */
+.favourites {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  width: 30%;
+  max-width: 31%;
+
+  padding: 1rem;
+  margin: 1rem 1rem 0.5rem 1rem;
+
+  border: 1px solid #dedede; 
+  border-radius: 8px;
+
+  /* Learned about box shadow here: https://www.w3schools.com/cssref/css3_pr_box-shadow.asp */
+  box-shadow: 0px 0px 10px #dedede;
+  background-color: white;
+}
+
+/* To display favourites heading and star image in a row */
+.faveTitle {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Add margin bottom to heading */
+.favourites h2 {
+  margin-bottom: 1rem;
+  display: inline;
+}
+
+/* Div for each favourite that user saves */
+.faveDiv {
+  background-color: #d9e5ef;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+/* Numbering for each saved favourite */
+.faveNum {
+  width: 10px;
+  margin-left: auto;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* cross icon to delete saved favourite */
+.crossIcon {
+  width: 1rem;
+}
+
+/* Delete button styling. 
+
+Learned how to make image into a button here:
+https://www.geeksforgeeks.org/how-to-change-an-input-button-image-using-css/ */
+
+.faveDiv button {
+  background-image: url('crossIcon.png');
+  background-size: cover;
+  background-color: #d9e5ef;
+  width: 1.2rem;
+  height: 1.2rem;
+  font-size: 1rem;
+  border: 0;
+  margin-left: auto;
+}
+
+.deleteButtonDiv {
+  display: flex;
+  margin-left: auto;
+}
+
+/* End of favourite styles ---------------------------------------- */
+
+/* Blue paragraph text */
+.bluePara {
+  color: blue;
+}
+
+/* Container for search results at bottom of page */
+.output {
+  margin: 1rem 0.5rem 1rem 1rem;
+  padding: 1rem;
+  max-width: 65%;
+  border: 1px solid #dedede; 
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px #dedede;
+  background-color: white;
+}
+
+/* Add margin bottom to heading */
+.output h2 {
+  margin-bottom: 1rem;
+}
+
+/* Styles for each result item from search */
+.resultsListItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: #f3f3f3;
+  border: 1px solid #dedede;
+}
+
+.ulListDiv {
+  width: 45rem;
+  max-width: 45rem;;
+}
+
+.resultsListItem Button {
+  align-self: flex-start;
+  margin-left: auto;
+  width: 10rem;
+  max-width: 10rem;
+}
+
