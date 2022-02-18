@@ -21,10 +21,7 @@ The app has been deployed with Heroku and can be viewed by opening the following
 These were the instructions I was given to guide me in this task:
 
 **Follow these steps:**
-Create a full-stack web application that interfaces with the [iTunes Search API](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-webservice-
-search-api/). The application should allow the user to search for content
-within the iTunes Store and Apple Books Store. The user should be able to create a
-list of ‘favourites’.
+Create a full-stack web application that interfaces with the [iTunes Search API](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-webservice-search-api/). The application should allow the user to search for content within the iTunes Store and Apple Books Store. The user should be able to create a list of ‘favourites’.
 
 **Your web application should meet the following criteria:**
 
@@ -62,11 +59,13 @@ list of ‘favourites’.
 
 This project uses:
 
+- HTML
 - CSS
 - Javascript ECMAScript 2021
 - React
 - Node
 - Express
+- Bootstrap
 
 ## Installation
 
